@@ -36,4 +36,5 @@ div ul li{
 }
 fieldset div{
     display: flex;
+    justify-content: space-evenly;
 }

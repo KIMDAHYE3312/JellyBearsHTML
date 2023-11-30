@@ -8,10 +8,6 @@ p{
     font-size: 20px;
     color:#6d6d6d;
 }
-.fieldset{
-    width:500px;
-    height:170px;
-}
 #input{
     width:200px;
 }
@@ -90,6 +86,7 @@ a:hover {
 fieldset{
     border-width: 4px;
     border-color: #EDEAFF;
+    width: 1;
 }
 #text{
     text-align: center;
