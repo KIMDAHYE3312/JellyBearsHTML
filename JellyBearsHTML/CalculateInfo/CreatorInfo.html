@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>창작자 정보</title>
+    <link rel="stylesheet" href="css/creatorInfo.css">
+</head>
+<body>  
+    <div id="wrap">
+    <div id="buttonparent">
+        <div class="button1"><button class="btn">프로젝트 심사 약관</button></div>
+        <div class="button1"><button class="btn">창작자 가이드</button></div>
+    </div>
+    <hr>
+    <div id="topmenubar">
+        <ul>
+            <li><a href="#">기본 정보</a></li>
+            <li><a href="#">창작자 정보</a></li>
+            <li><a href="#">요금제 선택</a></li>
+            <li><a href="#">펀딩 계획</a></li>
+            <li><a href="#">상세 정보</a></li>
+            <li><a href="#">선물 구성</a></li>
+            <li><a href="#">정책</a></li>
+        </ul>
+    </div>
+    <br><br><br><br>
+    <h1><b>창작자 정보</b></h1>
+    <br>
+    <h2>창작자 유형</h2>
+    <div id="buttontype">
+        <div><button class="btn1">개인</button></div>
+        <div><button class="btn1">개인 사업자</button></div>
+    </div>
+    
+    <br><br><br>
+    <h2>창작자명</h2>
+    <p>개인 사업자는 주민등록상 성명 또는 상호 / 개인은 주민등록상 성명을 입력해주세요.</p>
+    <input class="input1" type="text" placeholder="창작자명을 입력하세요">
+    <br><br>
+    <h2>창작자 프로필 이미지</h2>
+    <p>창작자 개인이나 팀의 사진을 올려주세요.</p>
+    <form method="post" enctype="multipart/form-data">
+        <div class="button">
+            <label for="chooseFile">
+                이미지 파일 업로드
+            </label>
+        </div>
+        <input type="file" class="chooseFile" name="chooseFile" accept="image/*" onchange="loadFile(this)">
+    </form>
+    <div class="fileContainer">
+        <div class="fileInput">
+            <p>FILE NAME: </p>
+            <p id="fileName"></p>
+        </div>
+        <div class="buttonContainer">
+            <button class="submitButton" id="submitButton">업로드</button>
+        </div>
+    </div>
+    <div class="image-show" id="image-show"></div>
+    <h2>문의 전화번호</h2>
+    <input class="input1" type="text" placeholder="전화번호를 입력하세요">
+    <br><br>
+    <h2>문의 이메일</h2>
+    <input class="input1" type="text" placeholder="이메일을 입력하세요">
+    <br><br>
+    <h2>창작자 소개</h2>
+    <p>2~3문장으로 창작자님의 이력과 간단한 소개를 써주세요.</p>
+    <input id="input" type="text" placeholder="간단한 이력과 소개를 써주세요">
+    <br><br>
+    <div id="areadiv"><h2>활동 지역</h2>
+        <div id="areatextdiv"><p>최대 3개 저장 가능</p></div>
+    </div>
+    <br><br>
+    <h2>본인 인증</h2>
+    <p>창작자 본인 이메일로 인증해주세요.</p>
+    <fieldset id="fieldset">
+        <div id="emaildiv1">
+            <div class="emaillabel">이메일</div>
+            <div class="emailt">
+                <input id="inputemail" type="email">
+            </div>
+            <div>
+                <button id="emailcheck" class="btn2" onclick="emailSend()">인증번호 받기</button>
+            </div>    
+        </div>
+    <div id="emaildiv2">
+        <div class="emaillabel">인증번호</div>
+        <div class="emailt">
+            <input type="text" id="certificationNumber">
+        </div>
+        <div>
+            <button id="certificationBtn" class="btn2" onclick="emailCertification()">인증하기</button>
+            <input type="hidden" id="certificationYN" value="false">
+        </div>
+    </div>
+    </fieldset>
+    <br><br>
+    <h2>세금 계산서 발행</h2>
+    <p>수수료 세금 계산서 발행에 필요한 정보를 등록해주세요.</p>
+    <div id="fee">
+        <div id="feeDiv1"><p>세금 계산서 발행을 위한 정보를 등록해주세요</p></div>
+        <div id="feeDiv2"><button id="feeButton">등록하기</button></div>
+    </div>
+
+
+
+
+    <br><br>
+    <h2>카카오톡 채널(선택)</h2>
+    <input class="inputsns" type="text" placeholder="검색용 아이디 입력"><br>
+    <input class="inputsns" type="text" placeholder="URL 입력">
+    <br><br>
+    <h2>SNS(선택)</h2>
+    <input class="inputsns" type="text" placeholder="https://www.facebook.com/"><br>
+    <input class="inputsns" type="text" placeholder="https://www.instagram.com/"><br>
+    <input class="inputsns" type="text" placeholder="https://www.twitter.com/">
+    <br><br>
+    <h2>함께하는 멤버(선택)</h2>
+    <p>KROWD-POPING 회원으로 가입된 팀원이 있다면 함께 소개해 주세요. 후원자님들의 신뢰를 높을 수 있어요.</p>
+    <input class="inputsns" type="text" placeholder="팀원을 추가해주세요.">
+    <button class="btn2">추가</button>
+    </div>
+
+
+    <script src="CreatorInfo.js"></script>
+</body>
+</html>

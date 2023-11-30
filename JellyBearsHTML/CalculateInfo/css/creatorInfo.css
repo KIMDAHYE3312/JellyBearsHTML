@@ -1,0 +1,248 @@
+
+.btn1{
+    background-color: #EDEAFF;
+    color: #7C1CD8;
+    border:none;
+    width:200px;
+    height:80px;
+    font-size: 30px;
+    font-weight:bold;
+    margin-left: 100px;
+    border-radius: 20px;    
+}
+
+#output {
+    display: block;
+    white-space: pre-wrap;
+}
+
+#div1 {
+    display: flex;
+}
+
+p{
+    color: #6D6D6D;
+}
+
+.input1{
+    width:700px;
+    height:30px;
+}
+
+.box-wrap{
+    display: flex;
+    flex-direction: row;
+}
+#areadiv {
+    display: flex;
+}
+#areatextdiv{
+    display: flex;
+    position: relative;
+    top:17px;
+    left: 50px;
+}
+#emaildiv1{
+    display: flex;
+    height:50px;
+}
+#emaildiv2{
+    display: flex;
+}
+.emaillabel{
+    width:100px;
+}
+
+.btn2{
+    width:100px;
+    height:30px;
+    background-color: #EDEAFF;
+    color:#7C1CD8;
+    margin-left: 50px;
+    border:none;
+    border-radius: 10px;
+    
+}
+#inputemail{
+    width:400px;
+    heigth:200px;
+}
+#filecheck{
+    display:flex;
+    position:relative;
+}
+#filelink{
+    display: flex;
+    position:absolute;
+    top:18px;
+    margin-left: 120px;
+    font-size: 20px;
+}
+#filechoice{
+    display:flex;
+    position:relative;
+}
+
+.inputsns{
+    width:500px;
+    height:30px;
+    margin-top: 12px;
+}
+ul {
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+li {
+    list-style-type: none;
+}
+a{
+    display: block;
+    padding: 6px 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color:#6D6D6D;
+
+}
+
+a:hover {
+    color:#7C1CD8;
+    background: #EDEAFF;
+}
+#topmenubar{
+    display: flex;
+    justify-content: left;
+    position:fixed;
+}
+.btn{
+    color:#7C1CD8;
+    background-color: #EDEAFF;
+    border-style: none;
+    font-weight: bold;
+
+}
+.button1{
+    padding: 1rem;
+    margin: 5px;
+}
+#buttonparent{
+    display: flex;
+    justify-content: flex-end;
+}
+#wrap{
+    width:1200px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#buttontype{
+    display:flex;
+    justify-content: center;
+}
+.button{
+    display:flex;
+    justify-content: center;
+}
+label{
+    cursor: pointer;
+    color:#7C1CD8;
+    font-weight: bold;
+    
+}
+.chooseFile{
+    visibility: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+.fileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-upload {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fileInput {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px black;
+    width: 60%;
+    height: 30px;
+}
+
+#fileName {
+    margin-left: 5px;
+}
+
+.submitButton {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    color:#7C1CD8;
+    background-color: #EDEAFF;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-style: none;
+}
+
+.image-show {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    position: absolute;
+}
+#input{
+    width:700px;
+    height:300px
+}
+#fee{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px #EDEAFF;
+}
+#feeButton{
+    margin-top: 12px;
+    margin-left:20px;
+    color: #7C1CD8;
+    background-color: #EDEAFF;
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    border-style: none;
+}
+#fieldset{
+    border-color: #EDEAFF;
+}
+
+h5{
+    color:#6D6D6D;
+}
+
+
+
+
+
+

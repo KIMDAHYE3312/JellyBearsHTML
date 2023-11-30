@@ -1,0 +1,73 @@
+h2{
+    color:#6d6d6d;
+}
+#h2{
+    color: #7c2cd8;
+}
+p{
+    font-size: 20px;
+    color:#6d6d6d;
+}
+.fieldset{
+    width:1000px;
+    height:170px;
+}
+#input{
+    width:200px;
+}
+.chooseFile{
+    visibility: hidden;
+}
+.fileContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submitButton {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    color:#7C1CD8;
+    background-color: #EDEAFF;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    border-style: none;
+}
+.fileInput {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px black;
+    width: 60%;
+    height: 30px;
+}
+label{
+    color:#7C1CD8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+a{
+    display: block;
+    padding: 6px 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#6D6D6D;
+
+}
+
+a:hover {
+    color:#7C1CD8;
+    background: #EDEAFF;
+}
+#example{
+    width:fit-content;
+    font-size: 25px;
+}
