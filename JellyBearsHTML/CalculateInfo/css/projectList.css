@@ -1,0 +1,17 @@
+#list{
+    display: flex;
+}
+.listButton{
+    margin: 20px;
+    width:80px;
+    height:40px;
+    border-style: none;
+    background-color: #f5f5f5;
+    color: #6d6d6d;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.listButton:hover {
+    color:#7C1CD8;
+    background: #EDEAFF;
+}

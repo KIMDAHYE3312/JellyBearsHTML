@@ -1,15 +1,15 @@
 h2{
-    color:#6d6d6d;
+    color:#7C1CD8;
 }
 #h2{
-    color: #7c2cd8;
+    color:#6d6d6d;
 }
 p{
     font-size: 20px;
     color:#6d6d6d;
 }
 .fieldset{
-    width:1000px;
+    width:500px;
     height:170px;
 }
 #input{
@@ -33,7 +33,7 @@ p{
     background-color: #EDEAFF;
     border-radius: 30px;
     padding: 10px;
-    font-size: 0.8em;
+    font-size: 20px;
     cursor: pointer;
     border-style: none;
 }
@@ -70,4 +70,57 @@ a:hover {
 #example{
     width:fit-content;
     font-size: 25px;
+}
+#title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.li{
+    list-style-type: none;
+    margin: 10px;
+    font-size: 20px;
+    color:#7C1CD8;
+    font-weight: bold;
+}
+#li{
+    color:#7C1CD8;
+    font-weight: bold;
+    margin-left: 30px;
+}
+fieldset{
+    border-width: 4px;
+    border-color: #EDEAFF;
+}
+#text{
+    text-align: center;
+}
+#wrap{
+    width: 1200px;
+}
+body{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+#file{
+    display: flex;
+    justify-content: center
+}
+#p{
+    margin: 50px;
+    color:#6D6D6D;
+    font-size: 30px;
+    font-weight: bold;
+}
+#submit{
+    width:130px;
+    height:60px;
+    background-color: #EDEAFF;
+    color: #7C1CD8;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin:auto;
+    display: block;
 }
